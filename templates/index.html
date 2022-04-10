@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is index page</title>
+</head>
+<body>
+   <div class ="content">
+       <div class ="container">
+         <div class ="row justify-content-center">
+             <div class ="col-md-6 contents">
+                 <div class="row justify-content-center">
+                     <div class="col-md-12">
+                         <div class="form-block">
+                             <div class="mb-4">
+                                 <h1>Welcome </h1>
+                             </div>
+                            <label>Login here!</label>
+                            <div class="form-group last mb-4">
+                             <div><button class="btn btn-pill text-white btn-block btn-primary"><a href="{% url 'login_view' %}">Login</a></button></div>
+                            </div>
+                            <label>Sign in here!</label>
+                            <div class="form-group last mb-4">
+                                <div><button class="btn btn-pill text-white btn-block btn-primary"><a href="{% url 'register' %}">Sign in</a></button></div>
+                            </div>    
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+       </div>
+   </div>
+
+
+
+
+</body>
+</html>
